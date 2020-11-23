@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/hello')
 def hello_world():
-	return ("Hola Mundo, soy Python!")
+	return ("Hola Mundo, soy Python! Ahora con CloudBuild")
 
 @app.route('/bye')
 def bye_world():
